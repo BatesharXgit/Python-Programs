@@ -1,8 +1,14 @@
-#wap TO CONCATENATE THE to create a new dictionary
+d1 = [{'Roll no.': 101, 'Course': 'Python', 'CA1': 65, 'CA2': 82, 'CA3': 95},
+      {'Roll no.': 102, 'Course': 'Python', 'CA1': 72, 'CA2': 82, 'CA3': 88},
+      {'Roll no.': 103, 'Course': 'Python', 'CA1': 85, 'CA2': 82, 'CA3': 90}]
 
-d1 = {1:11,2:22, 3:33}
-d2 = { 4:44, 5:55, 6:66}
-d3 = {7:77, 8:88, 9:99}
+for student in d1:
+    ca_marks = [student['CA1'], student['CA2'], student['CA3']]
+    average_ca = sum(ca_marks) / len(ca_marks)
+    
+    student['CA1'] = average_ca
+    student['CA2'] = average_ca
+    student['CA3'] = average_ca
 
-dict1 = d1 + d2 + d3
-print(dict1)
+for student in d1:
+    print(student)
