@@ -11,9 +11,9 @@ for i in d1:
     i['CA1'] = average
     i['CA2'] = average
     i['CA3'] = average
-    # print(average)
-    d1['CA1','CA2','CA3'] = d1[average]
-    del [d1['CA1'], ['CA2'], ['CA3']]
+    print(average)
+    # d1['CA1','CA2','CA3'] = d1[average]
+    # del [d1['CA1'], ['CA2'], ['CA3']]
 
-for i in d1:
-    print(i)
+# for i in d1:
+#     print(i)
