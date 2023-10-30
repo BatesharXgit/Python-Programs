@@ -1,14 +1,5 @@
-d1 = [{'Roll no.': 101, 'Course': 'Python', 'CA1': 65, 'CA2': 82, 'CA3': 95},
-      {'Roll no.': 102, 'Course': 'Python', 'CA1': 72, 'CA2': 82, 'CA3': 88},
-      {'Roll no.': 103, 'Course': 'Python', 'CA1': 85, 'CA2': 82, 'CA3': 90}]
+name = input("Enter your name: ")
+state = input("Enter your state: ")
+age = input("Enter your age: ")
 
-for student in d1:
-    ca_marks = [student['CA1'], student['CA2'], student['CA3']]
-    average_ca = sum(ca_marks) / len(ca_marks)
-    
-    student['CA1'] = average_ca
-    student['CA2'] = average_ca
-    student['CA3'] = average_ca
-
-for student in d1:
-    print(student)
+print(name, "is your name, you live in", state, "You are", age, "years old")
