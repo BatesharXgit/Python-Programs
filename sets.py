@@ -18,6 +18,7 @@ s5 = s.difference(s1)
 s6 = s1.difference(s)
 s7 = s.symmetric_difference(s1)
 
+
 print(s3)
 print(s4)
 print(s5)
