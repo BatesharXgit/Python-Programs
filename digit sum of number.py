@@ -1,4 +1,3 @@
-#Digit Sum
 x = int(input("Enter the number: "))
 sum = 0
 

@@ -1,8 +1,8 @@
-s.add(5) # add new element to the set
-# print(s)
-# s.remove(4) # remove element from set
-# print(s)
-# s.discard(5) # not give us any error if there is typeerror
-# print(s)
-# s.clear() #clear all the elements and give empty sets
-# print(s)
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible for voting.")
+elif age < 18 and age > 0:
+    print("You are not eligible for voting.")
+else:
+    print("You are not born yet!")
