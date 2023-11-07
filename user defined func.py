@@ -1,7 +1,5 @@
-def addition(x, y):
+def addition(x,y):
     z = x + y
+    print(z)
 
-x = 10
-y = 20
-
-print(addition)
+addition(10,20)
