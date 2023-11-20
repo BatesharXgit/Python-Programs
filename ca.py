@@ -7,7 +7,7 @@ def add_employee(name, salary, department):
     employees.append(employee)
 
 add_employee("Akshat", 50000, "HR")
-add_employee("Vimarsh", 60000, "Finance")
+add_employee("Yogesh", 60000, "Finance")
 add_employee("Rahul", 70000, "Marketing")
 
 def find_employee(name):
@@ -33,8 +33,9 @@ else:
     print(f"Employee {employee_to_find} not found.")
 
 employee_to_update = 'Rahul'
-new_salary = 80000
+new_salary = 50000
 new_department = 'Sales'
 update_employee(employee_to_update, new_salary, new_department)
 
 print("Updated employees list are: ", employees)
+
